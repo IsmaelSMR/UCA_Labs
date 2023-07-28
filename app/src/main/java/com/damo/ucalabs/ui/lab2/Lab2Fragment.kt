@@ -1,0 +1,38 @@
+package com.damo.ucalabs.ui.lab2
+
+import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
+import com.damo.ucalabs.databinding.FragmentLab2Binding
+
+class Lab2Fragment : Fragment() {
+
+    private var _binding: FragmentLab2Binding? = null
+
+    // This property is only valid between onCreateView and
+    // onDestroyView.
+    private val binding get() = _binding!!
+
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View {
+        val lab2ViewModel =
+            ViewModelProvider(this).get(Lab2ViewModel::class.java)
+
+        _binding = FragmentLab2Binding.inflate(inflater, container, false)
+        val root: View = binding.root
+
+
+        return root
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
+}

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">UCA labs</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Lab maintenance UCA</string>
+    <string name="nav_header_subtitle">uca.edu.ni</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="helper_required">Required</string>
+
+    <string name="nav_lab1">Lab 1</string>
+    <string name="nav_lab2">Lab 2</string>
+    <string name="nav_lab3">Lab 3</string>
+
+
+    //Pc fields
+    <string name="pc_name">Name</string>
+    <string name="pc_brand">Brand</string>
+    <string name="pc_model">Model</string>
+    <string name="pc_description">Description</string>
+    <string name="serial_number">Serial number</string>
+    <string name="processor">Processor</string>
+    <string name="RAM">RAM</string>
+    <string name="storage">Storage</string>
+    <string name="add_new_pc_title">Add a new pc</string>
+    <string name="menu_save">Save pc\n</string>
+
+</resources>
